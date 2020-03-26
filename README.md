@@ -15,9 +15,8 @@
 
 ```bash
     npm init
-    npm i inquirer 
-    npm i mysql
-    npm i jest
+    npm i inquirer mysql jest
+    npm i asciiart-logo ora
 ```
 ## <a name="usage"></a>Usage:
 ```bash
