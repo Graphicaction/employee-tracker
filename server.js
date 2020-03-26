@@ -3,6 +3,17 @@ const department = require("./lib/department");
 const role = require("./lib/role");
 const employee = require("./lib/employee");
 const connection =require("./config/connection");
+//Setting asciiart log's text and its styles
+const logo = require("asciiart-logo");
+
+const logoText = logo({ 
+  name: "Employee Management",
+  font: 'Star Wars',
+  borderColor: 'bold-cyan',
+  logoColor: 'bold-yellow',
+}).render();
+
+console.log(logoText);
 
 runSearch();
 //Starting search
